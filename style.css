@@ -1,7 +1,7 @@
 .header {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .left_header {
@@ -9,7 +9,9 @@
     font-size: 24px;
     color: #F9FAF8;
     align-items: center;
-    margin-left: 48px;
+    font-weight: bold;
+    justify-content: flex-start;
+    margin-left: 0;
 }
 
 .ul_header {
@@ -25,17 +27,24 @@
     padding: 24px;
 }
 
-.content {
+.container {
     display: flex;
     background-color: #1F2937;
+    justify-content: space-around;
+}
+
+.content {
+    padding: 16px;
+    margin-left: 235px;
 }
 
 .main_text {
+    margin-top: 40px;
     display: flex;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    margin-left: 24px;
+    margin-bottom: 0;
 }
 
 .p_text {
@@ -43,4 +52,29 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
+    margin-top: 0;
+}
+
+.btn {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: #3882F6;
+    height: 40px;
+    width: 100px;
+}
+
+.plach {
+    margin-right: 500px;
+    padding: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.inp {
+    height: 200px;
+    width: 350px;
+    background-color: #E5E7EB;
 }
