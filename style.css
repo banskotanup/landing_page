@@ -98,11 +98,7 @@ body {
 }
 
 .images {
-    display: flex;
-    gap: 40px;
     border-color: #3882F6;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .imag {
@@ -115,4 +111,16 @@ body {
 img {
     height: 250px;
     width: 250px;
+}
+
+.txt {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.img_txt {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
