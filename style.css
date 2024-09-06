@@ -1,3 +1,7 @@
+body {
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
     background-color: #1F2937;
@@ -56,6 +60,7 @@
 }
 
 .btn {
+    display: flex;
     background-color: #3882F6;
     color: white;
     font-weight: bold;
@@ -63,18 +68,51 @@
     border-color: #3882F6;
     height: 40px;
     width: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .plach {
     margin-right: 500px;
     padding: 48px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 32px;
+    flex-shrink: 1;
 }
 
 .inp {
-    height: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
     width: 350px;
     background-color: #E5E7EB;
+}
+
+.lb_header {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    gap: 40px;
+    border-color: #3882F6;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imag {
+    box-sizing: border-box;
+    border-width: 200px;
+    border: 4px solid blue;
+    border-radius: 20px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
 }
