@@ -9,7 +9,6 @@
         display: flex;
         background-color: #1F2937;
         justify-content: space-around;
-        margin-top: 0;
     }
     
     .left_header {
@@ -20,12 +19,14 @@
         font-weight: bold;
         justify-content: flex-start;
         margin-left: 0;
+        margin-top: 40px;
     }
     
     .ul_header {
         display: flex;
         list-style: none;
         margin-right: 48px;
+        margin-top: 40px;
     }
     
     .a_header {
@@ -53,7 +54,6 @@
         font-size: 48px;
         color: #F9FAF8;
         font-weight: 900;
-        margin-bottom: 0;
     }
     
     .p_text {
@@ -61,7 +61,7 @@
         display: flex;
         align-items: flex-end;
         justify-content: flex-start;
-        margin-top: 0;
+        padding: 10px;
     }
     
     .btn {
@@ -75,13 +75,15 @@
         width: 100px;
         justify-content: center;
         align-items: center;
+        margin-top: 4px;
     }
     
     .plach {
-        margin-right: 500px;
+        margin-right: 400px;
         padding: 48px;
         display: flex;
         gap: 32px;
+        margin-top: 40px;
     }
     
     .inp {
@@ -96,6 +98,7 @@
         color: #1F2937;
         font-weight: 900;
         justify-content: center;
+        margin-top: 40px;
     }
     
     .images {
@@ -124,6 +127,7 @@
         gap: 40px;
         justify-content: center;
         flex-wrap: wrap;
+        margin-top: 40px;
     }
     
     .testi {
