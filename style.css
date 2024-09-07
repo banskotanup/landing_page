@@ -173,6 +173,9 @@
         border-radius: 7px;
         background-color: #3882F6;
         color: white;
+        height: 30px;
+        width: 100px;
+        padding: 4px;
         border-color: white;
     }
     
